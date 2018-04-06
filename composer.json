@@ -1,0 +1,20 @@
+{
+    "name": "test-lin/cache",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jani",
+            "email": "505932384@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Testlin\\Cache\\": "./src"
+        }
+    }
+}
