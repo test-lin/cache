@@ -6,7 +6,7 @@ class Cache
 {
     protected $cache_driver;
 
-    public function __construct(string $driver, array $config)
+    public function __construct($driver, $config)
     {
         if (is_null($this->cache_driver)) {
             $driver = strtolower($driver);
